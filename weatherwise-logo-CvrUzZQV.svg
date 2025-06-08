@@ -1,0 +1,63 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 594 680" width="594" height="680">
+	<title>weatherwise-logo-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-71.397,-176.163,374.571,-151.809,298.657,546.52)">
+			<stop offset=".124" stop-color="#e39717"/>
+			<stop offset=".37" stop-color="#faa51a"/>
+			<stop offset=".626" stop-color="#faa51a"/>
+			<stop offset=".793" stop-color="#e39717"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(41.907,178.491,-524.961,123.252,234.794,132.336)">
+			<stop offset=".181" stop-color="#e39717"/>
+			<stop offset=".37" stop-color="#faa51a"/>
+			<stop offset=".646" stop-color="#faa51a"/>
+			<stop offset=".851" stop-color="#e39717"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(380.781,-94.161,34.864,140.988,102.691,390.349)">
+			<stop offset="0" stop-color="#faa51a"/>
+			<stop offset=".096" stop-color="#f7b91b"/>
+			<stop offset=".853" stop-color="#f7b91b"/>
+			<stop offset="1" stop-color="#faa51a"/>
+		</linearGradient>
+		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(550.477,-146.932,47.077,176.372,15.677,183.949)">
+			<stop offset=".028" stop-color="#faa51a"/>
+			<stop offset=".096" stop-color="#f7b91b"/>
+		</linearGradient>
+		<linearGradient id="g5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(165.964,0,0,229.465,245.964,565.267)">
+			<stop offset=".112" stop-color="#fec23b"/>
+			<stop offset=".691" stop-color="#f7b91b"/>
+			<stop offset=".888" stop-color="#faa51a"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+		.s2 { fill: url(#g3) } 
+		.s3 { fill: url(#g4) } 
+		.s4 { fill: #f7b91b } 
+		.s5 { fill: url(#g5) } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" class="s0" d="m306.8 392.8c-22.1 4.4-53.1-1.4-75.3 4.8-40 11.2-72.1 37.2-120.7 60.8 63.7 12.1 108.8 28 151.9 46.7 8.5 3.7 16.9 7.6 25.4 11.5 6.3-6.1 20.9-8 28.3-12.5 29.7-18.1 51.9-35.9 95.5-53.6-38.5-24.8-72.3-42.9-105.1-57.7z"/>
+			<path id="Layer" class="s1" d="m274.2 149.5c-22.9 4.7-45.2 2.5-68.5 9-55.4 15.7-114 44.7-180.4 78.7 92.5 2.5 160.3 16.6 224 36 12.7-3 35 2.5 47.7 0 61.1-12.1 114-27.9 199.3-23.8-58.4-35.6-110.4-59.7-160.4-78.7-20.7-7.9-41.1-14.9-61.7-21.2z"/>
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="s2" d="m476.3 378.7c0 0.2-0.1 0.3-0.3 0.3-77.2-2.2-133.6 5.8-188.6 17.9-55.1 12.1-109.1 28.7-176.6 61.5l-20.1-129.6c75.5-34.7 135.6-51.8 196.7-64 61.1-12.1 123.7-19.5 209-15.4z"/>
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="s3" d="m593.4 8.7c-83.1-10.7-151.5-10.3-214.5-5.3-63 5.1-120.6 15.1-181.2 31.2-60.6 16.1-124.2 38.2-197.1 74.2l24.7 128.4c66.4-34 124.5-55.3 179.9-70.9 55.4-15.6 108.3-25.6 166.1-31.2 57.8-5.5 120.8-6.8 197.4 2z"/>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="s4" d="m296.1 639.8q0.1-0.1 0.1-0.1h-0.1z"/>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s4" d="m397.7 581.4q0 0 0 0v-0.1z"/>
+			</g>
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="s5" d="m397.7 581.4l14.2-130.9c-74.9 30.4-103.6 46.2-165.9 93.2v136.3c54.2-46.5 84.8-67 151.7-98.6q0 0 0 0z"/>
+		</g>
+	</g>
+</svg>
