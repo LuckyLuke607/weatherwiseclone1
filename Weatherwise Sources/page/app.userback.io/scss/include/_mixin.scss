@@ -1,0 +1,215 @@
+@mixin mobile {
+    @media (max-width: $break_point_phone) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: $break_point_tablet) {
+        @content;
+    }
+}
+
+@mixin tablet-only {
+    @media (max-width: $break_point_tablet) and (min-width: $break_point_phone) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: ($break_point_phone + 1)) {
+        @content;
+    }
+}
+
+@mixin non-mobile {
+    @media (min-width: $break_point_phone) {
+        @content;
+    }
+}
+
+@mixin non-mobile-menu-large-closed {
+    @media (min-width: $break_point_phone) {
+        .menu-large-closed & {
+            @content;
+        }
+    }
+}
+
+@mixin non-mobile-app-menu-icon {
+    @media (min-width: $break_point_phone) {
+        .menu-large-closed & {
+            @content;
+        }
+    }
+
+    @media (max-width: $break_point_menu) and (min-width: $break_point_phone) {
+        @content;
+    }
+}
+
+@mixin app-menu-full-closed {
+    @media screen and (min-width: $break_point_menu) {
+        .menu-large-closed & {
+            @content;
+        }
+    }
+}
+
+@mixin app-menu-icon {
+    @media screen and (max-width: $break_point_menu) {
+        @content;
+    }
+}
+
+@mixin flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+@mixin flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flex-between-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@mixin max-width($value) {
+    @media (max-width: $value) {
+        @content;
+    }
+}
+
+@mixin fontawesomeS($value) {
+    font-family: 'Font Awesome 6 Pro';
+    font-weight: 900;
+    content: fa-content($value);
+}
+
+@mixin fontawesomeR($value) {
+    font-family: 'Font Awesome 6 Pro';
+    font-weight: 400;
+    content: fa-content($value);
+}
+
+@mixin fontawesomeL($value) {
+    font-family: 'Font Awesome 6 Pro';
+    font-weight: 300;
+    content: fa-content($value);
+}
+
+@mixin fontawesomeD($value) {
+    font-family: 'Font Awesome 6 Duotone';
+    font-weight: 900;
+    content: fa-content($value);
+}
+
+@mixin ellipsis {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin ellipsis-inline {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin overlay-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@mixin dot-bg {
+    background-image: radial-gradient($neutral-colour 0.5px, transparent 0.5px), radial-gradient($neutral-colour 0.5px, #FFFFFF 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+@mixin clearfix {
+    &:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}
+
+@mixin scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--colour-neutral-100) transparent;
+
+    &:hover {
+        scrollbar-color: var(--colour-neutral-200) transparent;
+    }
+
+    &::-webkit-scrollbar {
+        width: $app-scrollbar-size;
+        height: $app-scrollbar-size;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: var(--colour-neutral-100);
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+        background: var(--colour-neutral-200);
+    }
+}
+
+@mixin scrollbar-hidden {
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        background-color: transparent;
+    }
+}
+
+@mixin scrollbar-hover {
+    &::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+@mixin scrollbar-touch {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@mixin scroll-shadow {
+    background: linear-gradient(#FFFFFF 30%, rgba(255,255,255,0)),
+                linear-gradient(rgba(255,255,255,0), #FFFFFF 70%) 0 100%,
+                radial-gradient(farthest-side at 50% 0, rgba(0,0,0,0.2), transparent),
+                radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,0.2), transparent) 0 100%;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-size: 100% 40px, 100% 40px, 100% 10px, 100% 10px;
+    background-attachment: local, local, scroll, scroll;
+}

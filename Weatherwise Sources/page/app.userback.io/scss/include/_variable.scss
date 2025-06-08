@@ -1,0 +1,114 @@
+$static_base: 'https://static.userback.io/image';
+
+$app-width: 1380px;
+$app-width-xlarge: 1120px;
+$app-width-large: 1024px;
+$app-width-medium: 800px;
+
+$app-menu-width: 256px;
+$app-menu-width-icon: 72px;
+
+$app-header-height: 56px;
+$app-child-menu-width: 220px;
+
+$app-scrollbar-size: 5px;
+
+$portal-header-height: 72px;
+$portal-nav-width: 360px;
+$portal-content-width: 1072px;
+
+$feedback-viewer-header-size: 60px;
+$feedback-viewer-bar-size: 54px;
+$feedback-viewer-comment-size: 430px;
+$feedback-viewer-logo-size: 28px;
+
+$feedback-inbox-width: 380px;
+$feedback-inbox-details-width: 400px;
+$feedback-inbox-details-width-tablet: 340px;
+
+$widget-outer-padding: 20px;
+$widget-circle-size: 48px;
+$widget-text-size: 40px;
+
+/* Colour */
+$colour-widget-text: #354C5F;
+
+$primary-colour:      #6040FF; // --colour-primary
+$success-colour:      #00C080; // --colour-success
+$neutral-colour:      #6080A0; // --colour-neutral-600
+$danger-colour:       #FF4060; // --colour-danger
+$neutral-colour-1000: #232E3A; // --colour-neutral-1000
+
+$android-colour: #9FC037;
+$windows-colour: #00A8E7;
+
+$canvas_background: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAIAAABiEdh4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4zjOaXUAAAAClJREFUKFNjOI4D/McBRjUgA6g8BmCA0hgAqg8DjGpABlB5DECihuPHAflTfo/00CrXAAAAAElFTkSuQmCC';
+
+/* Font */
+$font-family          : 'Inter', sans-serif;
+$font-family-code     : 'Source Code Pro', monospace;
+$font-weight-black    : 900;
+$font-weight-bold     : 700;
+$font-weight-semibold : 600;
+$font-weight-medium   : 500;
+$font-weight-regular  : 400;
+$font-weight-light    : 300;
+
+/* Layout */
+$main-gutter: 20px;
+
+$arrow-size: 8px;
+$nav-width: 200px;
+$nav-width-tablet: 80px;
+$aside-width: 430px;
+$aside-width-medium: 320px;
+$aside-width-small: 280px;
+$aside-width-extra-small: 190px;
+$mobile-nav-height: 40px;
+
+/* Box */
+$box-border-radius-small: 4px;
+$box-border-radius: 8px;
+$box-border-radius-medium: 12px;
+$box-border-radius-large: 16px;
+
+/* box-shadow */
+$box-shadow-solid: 0 0 0 1px var(--colour-system-line);
+$box-shadow-solid-hover: 0px 4px 10px var(--colour-neutral-75);
+$box-shadow-light: 0 0 2px rgba($neutral-colour, 0.2);
+$box-shadow-dropdown: 0 2px 20px rgba(35, 46, 58, 0.2);
+
+/* Button */
+$button-height: 45px;
+$button-height-medium: 40px;
+$button-height-small-medium: 36px;
+$button-height-small: 32px;
+$button-height-tiny: 24px;
+
+$button-switch-height: 30px;
+$button-switch-width: 50px;
+$button-switch-height-small: 20px;
+$button-switch-width-small: 35px;
+$button-switch-height-tiny: 16px;
+$button-switch-width-tiny: 28px;
+
+/* Typography */
+$font-size-base: 14px;
+$font-size-label: 12px;
+$font-size-menu: 12px;
+$font-size-small: 10px;
+$font-size-heading1: 24px;
+$font-size-heading2: 20px;
+$font-size-heading3: 16px;
+$font-size-heading5: 15px;
+$font-size-input: 16px;
+$font-size-input-compact: 14px;
+
+/* Form */
+$input-height: 50px;
+$input-height-medium: 40px;
+$input-height-compact: 32px;
+
+/* Gradient */
+$gradient-shiny-bg: linear-gradient(90deg, #FFF0F2, #F2F0FF);
+$gradient-shiny-text: linear-gradient(90deg, #FF4051, #6040FF);
